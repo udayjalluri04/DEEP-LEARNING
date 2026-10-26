@@ -1,0 +1,14 @@
+# Local environment and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Credentials and private configuration
+kaggle.json
+.streamlit/secrets.toml
+
+# Downloaded model weights and inference outputs
+yolov8n.pt
+runs/
+output_images/

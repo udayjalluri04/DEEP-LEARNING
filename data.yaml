@@ -1,0 +1,7 @@
+
+train: /content/road-vehicle-images-dataset/trafic_data/train/images
+val: /content/road-vehicle-images-dataset/trafic_data/val/images
+test: /content/road-vehicle-images-dataset/trafic_data/test/images
+
+nc: 8  # Number of classes
+names: ['Car', 'Bus', 'Auto', 'Bike', 'Cycle', 'Truck', 'Lorry', 'Rickshaw']
